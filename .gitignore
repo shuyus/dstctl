@@ -1,0 +1,6 @@
+conf/dstctl.conf
+.dstctl/
+*.log
+*.tar.gz
+*~
+.DS_Store

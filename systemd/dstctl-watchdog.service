@@ -1,0 +1,16 @@
+# 示例：复制到 ~/.config/systemd/user/dstctl-watchdog.service
+# 或直接执行: dstctl watchdog systemd
+
+[Unit]
+Description=dstctl Don't Starve Together watchdog
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/opt/dstctl/dstctl watchdog run
+Restart=always
+RestartSec=10
+Environment=LANG=en_US.UTF-8
+
+[Install]
+WantedBy=default.target

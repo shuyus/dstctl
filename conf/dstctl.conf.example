@@ -1,0 +1,47 @@
+# dstctl 全局配置示例
+# 复制到 ~/.dstctl/dstctl.conf 或 conf/dstctl.conf 后按需修改
+# 编码: UTF-8
+
+# 安装与数据目录
+# DST_ROOT="$HOME/dst"
+# STEAMCMD_DIR="$DST_ROOT/steamcmd"
+# GAME_DIR="$DST_ROOT/server"
+# KLEI_ROOT="$HOME/.klei"
+# CONF_DIR="DoNotStarveTogether"
+# UGC_DIR="$GAME_DIR/ugc_mods"
+# BACKUP_DIR="$DST_ROOT/backups"
+
+# 进程管理: auto | screen | tmux | fifo
+# PROCESS_MUX="auto"
+
+# 启动时自动备份 / 保留份数
+# BACKUP_ON_START="true"
+# BACKUP_KEEP="10"
+
+# 启动存档时自动更新模组
+# MOD_UPDATE_ON_START="true"
+# 模组更新最长等待秒数
+# MOD_UPDATE_TIMEOUT="600"
+
+# 停服等待秒数、开服就绪等待秒数
+# STOP_GRACE_SECONDS="45"
+# START_WAIT_SECONDS="90"
+
+# 停服前广播
+# ANNOUNCE_ON_STOP="true"
+
+# 新建存档默认值
+# DEFAULT_MAX_PLAYERS="6"
+# DEFAULT_GAME_MODE="survival"
+# DEFAULT_INTENTION="cooperative"
+# DEFAULT_LANGUAGE="zh"
+# DEFAULT_CAVES="true"
+
+# Discord / 企业微信等兼容 content 字段的 Webhook
+# WEBHOOK_URL=""
+
+# 看门狗检查间隔（秒）
+# WATCHDOG_INTERVAL="20"
+
+# 优先使用 64 位服务端
+# PREFER_X64="true"

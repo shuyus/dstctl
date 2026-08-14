@@ -1,0 +1,3 @@
+return {
+{{MOD_ENTRIES}}
+}
